@@ -9,11 +9,12 @@ export const Layout = (props) => {
   );
 };
 const Cheader = styled.header`
+  width: 100%;
   font-size: 32px;
   color: #000000;
-  padding: 60px 30px 30px 30px;
 `;
 const Wcontainer = styled.div`
-  width: 1120px;
-  padding: 0 10px;
+  width: 1000px;
+  padding: 20px 30px;
+  margin: 0 auto;
 `;
