@@ -18,3 +18,7 @@ const Wcontainer = styled.div`
   padding: 20px 30px;
   margin: 0 auto;
 `;
+const Scontainer = styled.div`
+  width: 800px;
+  text-align: center;
+`;
