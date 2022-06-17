@@ -1,29 +1,29 @@
 import styled from "styled-components";
 export const IndexList = () => {
-  return (
-    <Scontainer>
-      <ul>
-        <li>
-          1.タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
-        </li>
-        <li>
-          1.タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
-        </li>
-        <li>
-          1.タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
-        </li>
-        <li>
-          1.タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
-        </li>
-        <li>
-          1.タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
-        </li>
-      </ul>
-    </Scontainer>
-  );
+  return;
+  // <Cul>
+  //   <Clist>
+  //     1.タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+  //   </Clist>
+  //   <Clist>
+  //     1.タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+  //   </Clist>
+  //   <Clist>
+  //     1.タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+  //   </Clist>
+  //   <Clist>
+  //     1.タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+  //   </Clist>
+  //   <Clist>
+  //     1.タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+  //   </Clist>
+  // </Cul>
+  // 初期化
 };
-const Scontainer = styled.div`
-  width: 800px;
-  text-align: center;
-  margin: 0 auto;
+const Clist = styled.li`
+  list-style: none;
+`;
+const Cul = styled.ul`
+  border: 1px solid #000000;
+  padding: 10px;
 `;

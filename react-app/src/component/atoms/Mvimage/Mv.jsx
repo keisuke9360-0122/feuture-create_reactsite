@@ -10,7 +10,6 @@ export const Mv = (props) => {
 };
 const Imgbox = styled.div`
   width: 100%;
-  padding: 20px 0;
 `;
 const Img = styled.img`
   width: 100%;
