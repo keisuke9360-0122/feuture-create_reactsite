@@ -9,7 +9,7 @@ export default function App() {
     <>
       <Ccontainer>
         <Header>
-          <Chead_txt>PHOTO BOOK2</Chead_txt>
+          <Chead_txt>PHOTっっっっっっdBOOK2</Chead_txt>
         </Header>
         <Mv></Mv>
         <CScontainer>
