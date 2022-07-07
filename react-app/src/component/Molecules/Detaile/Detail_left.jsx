@@ -16,6 +16,9 @@ const Author = styled.p`
   text-align: left;
   font-weight: 700;
   margin: 0;
+  :nth-child(n + 2) {
+    margin-top: 12px;
+  }
 `;
 const Contents = styled.span`
   text-align: left;
