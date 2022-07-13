@@ -6,15 +6,17 @@ const Copucomponent = ({ className }) => (
     <div className="box">
       <p className="text">&copy; 2021 PHOTO BOOK2</p>
     </div>
+    {console.log(className)}
   </div>
 );
 
 const Stylecopy = styled(Copucomponent)`
-  .box {
+  > .box {
     text-align: center;
-  }
-  .text {
-    font-size: 20px;
+    margin-top: 60px;
+  
+  > .text {
+    font-size: 14px;
     color: #000000;
     @media screen and (${breakpoints.sp}) {
       font-size: 14px;
@@ -22,6 +24,4 @@ const Stylecopy = styled(Copucomponent)`
   }
 `;
 
-export const Copy = (props) => {
-  return <Stylecopy {...props} />;
-};
+export const Copy = (props) => <Stylecopy {...props} />;

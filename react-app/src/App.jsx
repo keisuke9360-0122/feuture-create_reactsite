@@ -4,7 +4,6 @@ import { Mv } from "./component/Atoms/Mvimage/Mv.jsx";
 import { Header } from "./component/Template_layout/defalute";
 import { IndexList } from "./component/Molecules/List/IndexList";
 import { HeadText } from "./component/Atoms/HeadText/HeadText";
-import { Imgsingle } from "./component/Atoms/Imgsingle/Img";
 import { Flex } from "./component/Molecules/Imgflex/Flex";
 import { Detail_left } from "./component/Molecules/Detaile/Detail_left";
 import { Detail_right } from "./component/Molecules/Detaile/Detaile_right";
@@ -33,7 +32,6 @@ export default function App() {
           <Fleft>
             <Detail_left />
           </Fleft>
-
           <Fright>
             <Detail_right />
           </Fright>
@@ -43,6 +41,7 @@ export default function App() {
     </Ccontainer>
   );
 }
+
 const Ccontainer = styled.div`
   max-width: 1120px;
   margin: 40px auto 0;
