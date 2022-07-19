@@ -12,6 +12,7 @@ import { breakpoints } from "./constans";
 
 export default function App() {
   return (
+<<<<<<< Updated upstream
     <Ccontainer>
       <Header>
         <Chead_txt>PHOTO BOOK2</Chead_txt>
@@ -39,6 +40,22 @@ export default function App() {
       </CScontainer>
       <Copy />
     </Ccontainer>
+=======
+    <>
+      <Ccontainer>
+        <Header>
+          <Chead_txt>PHOTO BOOK2</Chead_txt>
+        </Header>
+        <Mv></Mv>
+        <CScontainer>
+          <HeadText>
+            <Cindex_title>INDEX</Cindex_title>
+          </HeadText>
+          <IndexList></IndexList>
+        </CScontainer>
+      </Ccontainer>
+    </>
+>>>>>>> Stashed changes
   );
 }
 
