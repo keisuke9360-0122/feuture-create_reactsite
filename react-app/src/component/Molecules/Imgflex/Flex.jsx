@@ -1,5 +1,6 @@
-import { Imgsingle } from "../../Atoms/Imgsingle/Img";
 import styled from "styled-components";
+
+import { Imgsingle } from "../../Atoms/Imgsingle/Img";
 import { breakpoints } from "../../../constans";
 
 const Components = ({ className }) => (
@@ -25,13 +26,7 @@ const Styleflex = styled(Components)`
     display: flex;
     flex-wrap: wrap;
     margin: 0 -5px;
-    @media screen and (${breakpoints.pc_s}) {
-    }
-    @media screen and (${breakpoints.tab}) {
-    }
-    @media screen and (${breakpoints.sp}) {
-      display: block;
-    }
+
     > .item {
       width: 50%;
       margin-top: 5px;

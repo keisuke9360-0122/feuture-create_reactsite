@@ -26,7 +26,7 @@ export default function App() {
       <Imgcontainer>
         <Flex />
       </Imgcontainer>
-      <CScontainer>
+      <CBcontainer>
         <Cindex_title>DETAIL</Cindex_title>
         <Dflex>
           <Fleft>
@@ -36,7 +36,7 @@ export default function App() {
             <Detail_right />
           </Fright>
         </Dflex>
-      </CScontainer>
+      </CBcontainer>
       <Copy />
     </Ccontainer>
   );
@@ -45,11 +45,8 @@ export default function App() {
 const Ccontainer = styled.div`
   max-width: 1120px;
   margin: 40px auto 0;
-  @media screen and (${breakpoints.pc_s}) {
-  }
-  @media screen and (${breakpoints.tab}) {
-  }
   @media screen and (${breakpoints.sp}) {
+    margin-top: 60px;
   }
 `;
 const CScontainer = styled.div`
@@ -63,6 +60,19 @@ const CScontainer = styled.div`
     max-width: auto;
     padding: 12px;
     margin: 60px 16px;
+  }
+`;
+const CBcontainer = styled.div`
+  max-width: 800px;
+  background: #f6f6f6;
+  margin: 0 auto;
+  padding: 50px 0 70px;
+  text-align: center;
+  margin-top: 50px;
+  @media screen and (${breakpoints.sp}) {
+    max-width: auto;
+    margin: 60px 16px;
+    padding: 12px 12px 40px;
   }
 `;
 const Imgcontainer = styled.div`
@@ -86,8 +96,8 @@ const Cindex_title = styled.h2`
   font-weight: 700;
   text-align: center;
   @media screen and (${breakpoints.sp}) {
-    font-size: 16px;
-    margin: 20px 20px 30px;
+    font-size: 20px;
+    margin: 30px 20px 37px;
   }
 `;
 const Dflex = styled.div`

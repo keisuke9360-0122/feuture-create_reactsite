@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 import { breakpoints } from "../../../constans";
 
 const Components = ({ className }) => (
@@ -10,13 +11,15 @@ const Components = ({ className }) => (
       <p className="list">
         タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
       </p>
-      <a className="link">オンラインストアで見る</a>
+      <a href="#" className="link">
+        オンラインストアで見る
+      </a>
     </div>
   </div>
 );
 const Styleright = styled(Components)`
   > .lcontainer {
-    padding: 0 30px;
+    padding: 0 70px 0 40px;
     @media screen and (${breakpoints.sp}) {
       padding: 0;
     }
@@ -25,8 +28,19 @@ const Styleright = styled(Components)`
       font-weight: normal;
       font-size: 18px;
       line-height: 1.6666em;
+      margin-top: 0;
       @media screen and (${breakpoints.sp}) {
         font-size: 16px;
+        :first-child {
+          margin-top: 30px;
+        }
+      }
+    }
+    .list {
+      @media screen and (${breakpoints.sp}) {
+        :first-child {
+          margin-top: 30px;
+        }
       }
     }
     > .link {
@@ -34,6 +48,7 @@ const Styleright = styled(Components)`
       display: block;
       font-weight: normal;
       font-size: 18px;
+      color: #000000;
       @media screen and (${breakpoints.sp}) {
         font-size: 16px;
       }
