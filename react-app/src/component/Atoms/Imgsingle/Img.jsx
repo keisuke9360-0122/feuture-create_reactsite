@@ -9,7 +9,6 @@ export const Imgsingle = () => {
 };
 const Image = styled.div`
   padding: 0 5px;
-  // width: 100%;
 `;
 const Single = styled.img`
   object-fit: cover;
